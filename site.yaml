@@ -1,0 +1,6 @@
+---
+- hosts: Bastions_Servers
+  become: false
+  tasks:
+    - name: Print List Directory
+      shell: ls -l
