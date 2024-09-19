@@ -5,4 +5,4 @@
     - name: Desplegando el servicio
       shell: |
         echo "Desplegando Registration Service"
-        /opt/fondes/qa/scripts/deployregistrationservice.sh
+        /opt/fondes/prod/scripts/deployregistrationservice.sh
